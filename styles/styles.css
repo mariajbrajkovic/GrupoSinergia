@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-@import url('..https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
-@import url('..https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 *,
 html,
@@ -133,7 +133,7 @@ body {
 }
 
 .contacto {
-    background-image: url('../assets/fondoMain.png');
+    background-image: url('/assets/fondoMain.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -201,7 +201,7 @@ textarea {
 }
 
 .inicio-main {
-    background-image: url('../assets/fondoMain.png');
+    background-image: url('/assets/fondoMain.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -257,7 +257,7 @@ textarea {
 .info-2 {
     display: flex;
     flex-direction: column;
-    background-image: url('../assets/fondoMain2.png');
+    background-image: url('/assets/fondoMain2.png');
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -279,7 +279,7 @@ textarea {
 
 .nosotras {
     padding: 5%;
-    background-image: url('../assets/imagen3.png');
+    background-image: url('/assets/imagen3.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
