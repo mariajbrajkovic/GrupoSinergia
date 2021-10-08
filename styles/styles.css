@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: #014361;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    background-color: #bac8d3;
+    width: 100%;
+    padding: 0px 6.93% 0px 5.87%;
+}
+
+.respmenu input[type="checkbox"],
+.respmenu .fa-bars,
+.respmenu .fa-times {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0px;
+    top: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.menu {
+    justify-content: flex-start;
+    display: none;
+}
+
+.navigator input:checked~.fa-bars {
+    display: none;
+}
+
+.navigator input:checked~.fa-times {
+    display: inline;
+}
+
+.navigator input:not(:checked)~.fa-times {
+    display: none;
+}
+
+.navigator input:checked~.menu {
+    position: absolute;
+    top: 78px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fbfbfb;
+    opacity: 80%;
+    z-index: 1;
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigator input:checked~.menu li {
+    height: 60px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 100%;
+    line-height: 30px;
+}
+
+.navigator input:checked+.btn .fa-bars {
+    display: none;
+}
+
+.navigator input:checked+.btn .fa-times {
+    display: block;
+    height: 20px;
+}
+
+.check {
+    display: inline;
+    opacity: 0;
+    margin: 0px;
+    width: auto;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    left: 29.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    color: #374D5E;
+}
+
+.menu-item {
+    width: min-content;
+    margin-left: 34.4px;
+    list-style: none;
+}
+
+.menu-title {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #374D5E;
+}
+
+.menu-title:hover {
+    text-decoration: underline;
+}
+
+.menu-title:active {
+    color: #afafaf;
+}
+
+.logo {
+    display: none;
+}
+
+.contacto {
+    background-image: url('/assets/fondoMain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact_form {
+    width: 60vw;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fbfbfb;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #435d74;
+    margin-bottom: 25px;
+}
+
+.form-title {
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #0c2e3a;
+}
+
+.form.subtitle {
+    font-size: 6px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+input,
+textarea {
+    background-color: #ffffff;
+    width: 40vw;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #435d74;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.enviar-info {
+    width: 30vw;
+    height: 30px;
+}
+
+.form-title {
+    font-size: 29px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #0c2e3a;
+}
+
+.form.subtitle {
+    font-size: 8px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+.inicio-main {
+    background-image: url('/assets/fondoMain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio-info {
+    width: inherit;
+}
+
+.infoDia {
+    font-size: 2vw;
+    padding-top: 5%;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+.infoP {
+    font-size: 1.8vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.pLugar {
+    padding-bottom: 5%;
+}
+
+.salto {
+    display: none;
+}
+
+.tituloInicio {
+    color: #a5b7c6;
+    font-size: 7vw;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    padding-left: 0px;
+    display: block;
+}
+
+.subtituloInicio {
+    color: #e8e8e8;
+    font-size: 3vw;
+    padding: 10px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    padding-left: 0px;
+    display: block;
+}
+
+.info-2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/assets/fondoMain2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.mapa {
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.nosotras {
+    padding: 5%;
+    background-image: url('/assets/imagen3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.miembro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoPersona {
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageProfile {
+    border-radius: 50%;
+    margin: 15px;
+    box-shadow: 0 3px 9px 0 #374D5E;
+    height: 20vh;
+    width: 20vh;
+}
+
+.titulo {
+    padding-bottom: 2.5%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.dnone {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        width: min-content;
+        right: 30px;
+    }
+
+    .titulo {
+        text-align: left;
+    }
+
+    .miembro {
+        display: grid;
+        grid-template-columns: 22.5% 80%;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .info-2 {
+        flex-direction: row-reverse;
+    }
+
+    .mapa {
+        margin-top: 5%;
+        left: 50%;
+        padding-left: 5%;
+    }
+
+    .logo {
+        display: inline;
+    }
+
+    .fa-bars,
+    .fa-times {
+        display: none;
+    }
+
+    .tituloInicio,
+    .subtituloInicio {
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    .salto {
+        display: inline;
+    }
+
+    .infoDia,
+    .infoP {
+        text-align: right;
+        padding-right: 5%;
+    }
+
+    .dnone {
+        display: none;
+    }
+}
