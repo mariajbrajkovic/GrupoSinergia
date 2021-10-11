@@ -222,7 +222,7 @@ textarea {
 .titulo-clasif {
     text-align: center;
     padding-top: 1.3%;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
 }
 
 .par-clasif {
@@ -317,7 +317,7 @@ textarea {
 
 .tituloInicio {
     color: #a5b7c6;
-    font-size: 7vw;
+    font-size: 8vw;
     padding-top: 5%;
     padding-left: 5%;
     font-family: 'Rajdhani', sans-serif;
@@ -328,7 +328,7 @@ textarea {
 
 .subtituloInicio {
     color: #e8e8e8;
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 10px;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -463,6 +463,8 @@ textarea {
 
     .logo {
         display: inline;
+        position: absolute;
+        left: 2%;
     }
 
     .fa-bars,
