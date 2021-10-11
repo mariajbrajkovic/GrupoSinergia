@@ -247,8 +247,8 @@ textarea {
 }
 
 .imagen-clasif {
-    height: 80px;
-    width: 80px;
+    height: 30px;
+    width: 30px;
 }
 
 .titulo-beneficios {
@@ -272,7 +272,7 @@ textarea {
 
 .texto-beneficios {
     color: #3b281a;
-    font-size: 2vw;
+    font-size: 3vw;
     padding-top: 1%;
     padding-right: 5%;
     padding-bottom: 5%;
@@ -416,8 +416,8 @@ textarea {
     }
 
     .imagen-clasif {
-        height: 30px;
-        width: 30px;
+        height: 80px;
+        width: 80px;
     }
 
     .texto-beneficios {
